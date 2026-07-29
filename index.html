@@ -10,7 +10,7 @@
 <meta property="og:description" content="I build digital products that people love to use.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rama.dev">
-<title>Rama — IT Enginner &amp; Flutter Dev</title>
+<title>Rama — IT Eng &amp; Flutter Dev</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -1041,7 +1041,7 @@ function app() {
 
       // Always start in dark mode unless the user changed it manually
       const savedTheme = localStorage.getItem('theme');
-      this.dark = savedTheme ? savedTheme === 'dark' : true;
+      this.dark = true;
 
       this.$watch('dark', value => {
        localStorage.setItem('theme', value ? 'dark' : 'light');
